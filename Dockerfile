@@ -1,4 +1,8 @@
- RUN pip2 install pandas
- RUN pip2 install bs4
- RUN pip2 install ipywidgets
- RUN pip2 install IPython
+FROM andrewosh/binder-base
+
+USER root
+RUN pip install pandas
+RUN pip install bs4
+RUN pip install ipywidgets
+RUN pip install IPython
+RUN pip install urllib2
