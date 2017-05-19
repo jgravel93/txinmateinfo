@@ -6,10 +6,10 @@ USER root
 
 
 # Install Julia kernel
-RUN sudo pip install pandas
-RUN sudo pip install bs4
-RUN sudo pip install ipywidgets
-RUN sudo pip install IPython
-RUN sudo pip install urllib2
+RUN pip install pandas
+RUN pip install bs4
+RUN pip install ipywidgets
+RUN pip install IPython
+RUN pip install urllib2
 
 USER main
