@@ -12,4 +12,4 @@ RUN sudo -H pip install ipywidgets
 RUN sudo -H pip install IPython
 RUN sudo -H pip install urllib2
 
-USER jgravel
+USER main
