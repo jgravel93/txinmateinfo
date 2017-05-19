@@ -6,10 +6,10 @@ USER root
 
 
 # Install Julia kernel
-RUN pip install pandas
-RUN pip install bs4
-RUN pip install ipywidgets
-RUN pip install IPython
-RUN pip install urllib2
+RUN sudo -H pip install pandas
+RUN sudo -H pip install bs4
+RUN sudo -H pip install ipywidgets
+RUN sudo -H pip install IPython
+RUN sudo -H pip install urllib2
 
-USER main
+USER jgravel
