@@ -1,5 +1,5 @@
 FROM andrewosh/binder-base
-MAINTAINER Jason Gravel <jason.gravel93@gmail.com>
+MAINTAINER Jason Gravel <jgravel@uci.edu>
 USER root
 
 
