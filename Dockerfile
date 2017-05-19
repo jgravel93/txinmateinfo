@@ -1,6 +1,4 @@
-MAINTAINER Jason Gravel <jason.gravel93@gmail.com>
-
-RUN /bin/bash -c "source activate python3"
+RUN usr/bin/bash -c "source activate python3"
 
 RUN pip3 install pandas
 RUN pip3 install bs4
