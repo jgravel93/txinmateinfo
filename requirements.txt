@@ -1,1 +1,7 @@
-
+urllib2
+time
+pandas 
+math
+bs4 
+ipywidgets
+IPython
